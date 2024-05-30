@@ -1,8 +1,6 @@
-print('Hello Git!')
-
-
 def sayHello(text):
     print(f"Hello, {text}!")
 
 
-sayHello("Git")
+if __name__ == "__main__":
+    sayHello("Git")
